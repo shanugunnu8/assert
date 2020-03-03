@@ -21,7 +21,7 @@ public class asserExample {
  
  WebElement right_click = driver.findElement(By.xpath("//input[@ng-model='FirstName']"));
  Actions action = new Actions(driver);
- Thread.sleep(2000);
+ Thread.sleep(3000);
  action.contextClick(right_click).perform();
  Thread.sleep(2000);
  /*WebElement Interaction = driver.findElement(By.xpath("//a[contains(text(),'Interactions')] "));
