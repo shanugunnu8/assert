@@ -23,7 +23,7 @@ public class asserExample {
  Actions action = new Actions(driver);
  Thread.sleep(5000);
  action.contextClick(right_click).perform();
- Thread.sleep(2000);
+ Thread.sleep(5000);
  /*WebElement Interaction = driver.findElement(By.xpath("//a[contains(text(),'Interactions')] "));
  Actions act = new Actions(driver);
  Thread.sleep(2000);
